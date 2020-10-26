@@ -21,9 +21,9 @@ function compareGuesses(humanGuess,compGuess,target){
 }
 
 const updateScore = (str) => {
-  if (str = 'human') {
+  if (str === 'human') {
     humanScore += 1;
-  } else if (str = 'computer'){
+  } else if (str === 'computer'){
     computerScore += 1;
   }
 }
