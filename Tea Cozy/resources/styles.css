@@ -1,0 +1,81 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+body {
+  text-align: center;
+}
+/*navigation*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.navlist li{
+  display: inline-block;
+  text-decoration: underline;
+  list-style-type: none;
+  margin: 10px;
+}
+.logoImg{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+/*body*/
+.main {
+  display: inline-block;
+  justify-content: center;
+}
+
+.mission{
+  background-image: url('./resources/img-mission-background.jpg');
+  min-width: 700px;
+  min-height: 1200px;
+}
+
+.container{
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.picdiv img{
+  height:200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/*locations*/
+.locations{
+  display: flex:
+  justify-content: center;
+}
+
+.loccontainer{
+  background-image: url('./resources/img-locations-background.jpg');
+  min-height: 500px;
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+/*footer*/
+
+.address{
+  background-color: black;
+  width: 300px;
+  height: auto;
+}
+
+.endbit{
+  text-align: left;
+}
